@@ -1,0 +1,82 @@
+* {
+    max-height: 100%;
+    max-width: 100%;
+    font-family: Courier;
+    font-size: 11pt;
+    background: radial-gradient(ellipse at bottom left, rgba(104, 128, 138, 0.4) 10%, rgba(138, 114, 76, 0) 40%), linear-gradient(to bottom, rgba(57, 173, 219, .25), rgba(42, 60, 87, 0.4));
+}
+
+.chat {
+    margin-left: 35%;
+    margin-right: 35%;
+    width: 400px;
+    border: 10px solid;
+    padding: 0px;
+    border-radius: 10px;
+    height: 90%;
+    overflow: hidden;
+    align-content: center;
+
+}
+
+.actions {
+    position: fixed;
+    bottom: 0;
+    display: block;
+}
+
+.actions input {
+    height: 30px;
+    width: 400px;
+    background: white;
+    border-radius: 7px;
+    border: 3px solid black
+}
+
+.messages div {
+    max-width: 60%;
+    display: block;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.messages .bot {
+    text-align: left;
+    margin-right: auto;
+    background: lightblue;
+}
+
+.messages .self {
+    text-align: right;
+    margin-left: auto;
+    background: #DDD;
+}
+
+/*Responsiveness*/
+
+@media screen and (max-width:700px) {
+    .chat {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .action {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .chat {
+        width: 100%;
+        display: block;
+        margin: 0;
+    }
+
+    .actions {
+        width: 100%;
+        margin: 0;
+    }
+}

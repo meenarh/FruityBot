@@ -1,0 +1,23 @@
+
++ hello
+- Hello I am Fruity. Your go to chatbot at FruitStore. How can I help you?
+
++ hi
+- Hello I am Fruity. Your go to chatbot at FruitStore. How can I help you?
+
+
++ my name is *
+- Nice to meet you <star>. I'm Fruity. How can I help you?  
+
++ thank you
+- You are welcome
+- Hello, I'm Fruity. How can I help you?
+
+
++ * 
+- I am afraid I can not understand you
+
++ i want to make orders for fruits
++ i want to make orders for apples oranges and bananas
++ i want to make orders for 3 mangoes 6 pineapples and 10 watermelons
+- Thank you for your patronage your order is been processed.
